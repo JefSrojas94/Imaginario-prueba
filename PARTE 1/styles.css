@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secciones{
+    padding: 10px;
+    min-height: 100px;
+}
+.palabra.palabra-p{
+    display: inline-block;
+    width: 95px;
+    height:15px ;    
+    margin: 5px;
+    cursor: pointer;
+}
+.green{
+    background-color: rgb(42, 163, 42);
+}
+.palabra{
+    display: inline-block;
+    background-color: white;
+    width: 95px;
+    height:20px ;    
+    margin: 5px;
+    cursor: pointer;
+}
+#comprobar {
+    border-radius: 15px;
+    margin: 25px 35px 0 15px ;
+}
+#feedback {
+    margin-top: 10px;
+}
